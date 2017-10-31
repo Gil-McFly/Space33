@@ -1,22 +1,26 @@
 header
-  +position(fixed, 0 null null 0)
+  +position(fixed, 0 null null null)
   display: flex
   +size(100% auto)
-  padding: 0.625rem
-  background-color: red
+  max-width: 100%
+  padding: 1.875rem 3.125rem
+  background-color: transparent
   justify-content: space-between
+  align-items: flex-start
+  z-index: 3
 
 .logo
-  background-color: green
+  background-color: transparent
 
   &__link
     display: inline-block
     font-family: $font-space-r
-    font-size: 1.5rem
+    font-size: 1.625rem
     color: $light-gray
+    cursor: pointer
 
 .menu__toggle
-  background-color: black
+  background-color: $dark-blue
   border: 0.125rem solid $light-gray
   border-radius: 0.25rem
   padding: 0.25rem
@@ -24,3 +28,4 @@ header
   &__link
     display: inline-block
     color: $light-gray
+    cursor: pointer

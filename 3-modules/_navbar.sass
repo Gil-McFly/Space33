@@ -1,0 +1,28 @@
+.navbar
+  +position(fixed, 0 0 0 0)
+  background-color: $dark-blue
+  z-index: 2
+  display: none
+
+  &__list
+    list-style-type: none
+    +size(auto auto)
+    +position(relative, 50% null null null)
+    transform: translateY(-50%)
+    margin: 0
+    padding: 0 0 0 3.125rem
+
+    &__item
+      display: block
+      width: auto
+      padding: 0.625rem
+
+      &__link
+        text-decoration: none
+        color: $light-gray
+        font-size: 2rem
+        cursor: pointer
+        display: inline-block
+
+.show
+  display: block
