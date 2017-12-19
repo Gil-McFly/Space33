@@ -9,55 +9,84 @@
   <link rel="stylesheet" href="app.min.css" type="text/css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <a class="logo__link" href="/index">Space 33</a>
-    </div>
-    <div class="menu__toggle">
-      <a class="menu__toggle__link" href="">Menu ☲</a>
-    </div>
-  </header>
-
-  <nav class="navbar">
-    <ul class="navbar__list">
-      <li class="navbar__list__item"><a class="navbar__list__item__link" href="/index">Home</a>
-      <li class="navbar__list__item"><a class="navbar__list__item__link" href="/mission">Mission</a>
-      <li class="navbar__list__item"><a class="navbar__list__item__link" href="/servizi">Servizi</a>
-      <li class="navbar__list__item"><a class="navbar__list__item__link" href="/portfolio">Portfolio</a>
-      <li class="navbar__list__item"><a class="navbar__list__item__link" href="/chi-sono">Chi Sono</a>
-      <li class="navbar__list__item"><a class="navbar__list__item__link" href="/blog">Blog</a>
-      <li class="navbar__list__item"><a class="navbar__list__item__link" href="/contatti">Contatti</a>
-  </nav>
-
   <div class="container">
-    <section class="home">
-      <h1 class="home__title">Space 33 Web Design</h1>
-      <p class="home__tagline">Un ambizioso sognatore che vuole rendere il web<br>
-        un arte con la passione e la creatività.</p>
-      <a class="home__btn btn btn-y" href="/chi-sono">Scopri di più</a>
-      <img class="home__img" src="img/astronaut.svg" alt="space 33">
-    </section>
-    <section class="mission">
-      <h2 class="mission__title">Un esperienza unica</h2>
-      <p class="mission__text">Creare valore realizzando qualcosa di unico <br>
-        per rendere il tuo business un successo</p>
-    </section>
-    <section class="service">
-      <div class="service__box">
-        <img class="service__img" src="img/web-icon-space33.svg" alt="web design">
-        <h3 class="service__title">Web</h3>
-        <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="service__btn btn btn-g" href="/web">Scopri di più</a>
+    <header>
+      <div class="logo">
+        <a class="logo__link" href="/index"><img class="logo__img" src="img/logo_space33_w.svg" alt="Space 33"></a>
       </div>
-      <div class="service__box">
-        <img class="service__img" src="img/video-icon-space33.svg" alt="foto e video">
-        <h3 class="service__title">Foto e Video</h3>
-        <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="service__btn btn btn-g" href="/video">Scopri di più</a>
+      <div class="menu__toggle">
+        <a class="menu__toggle__link" href="">Menu ☲</a>
       </div>
-    </section>
-    <section class="portfolio"></section>
-    <section class="contact"></section>
+    </header>
+
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__list__item"><a class="navbar__list__item__link" href="/index">Home</a>
+        <li class="navbar__list__item"><a class="navbar__list__item__link" href="/mission">Mission</a>
+        <li class="navbar__list__item"><a class="navbar__list__item__link" href="/servizi">Servizi</a>
+        <li class="navbar__list__item"><a class="navbar__list__item__link" href="/portfolio">Portfolio</a>
+        <li class="navbar__list__item"><a class="navbar__list__item__link" href="/chi-sono">Chi Sono</a>
+        <li class="navbar__list__item"><a class="navbar__list__item__link" href="/blog">Blog</a>
+        <li class="navbar__list__item"><a class="navbar__list__item__link" href="/contatti">Contatti</a>
+    </nav>
+
+    <div class="main">
+      <section class="home">
+        <video width="480" height="auto" autoplay loop>
+          <source src="img/video_home.mp4" type="video/mp4">
+        </video>
+        <h1 class="home__title">Space 33 Web Design</h1>
+        <p class="home__tagline">Un ambizioso sognatore che vuole rendere il web<br>
+          un arte con la passione e la creatività.</p>
+        <a class="home__btn btn btn-y" href="/chi-sono">Scopri di più</a>
+        <!--<img class="home__img" src="img/astronaut.svg" alt="space 33">-->
+      </section>
+
+      <section class="mission">
+        <h2 class="mission__title">Un esperienza unica</h2>
+        <p class="mission__text">Creare valore realizzando qualcosa di unico <br>
+          per rendere il tuo business un successo</p>
+      </section>
+
+      <section class="service">
+        <div class="service__box">
+          <img class="service__img" src="img/web-icon-space33.svg" alt="web design">
+          <h3 class="service__title">Web</h3>
+          <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="service__btn btn btn-g" href="/web">Scopri di più</a>
+        </div>
+        <div class="service__box">
+          <img class="service__img" src="img/video-icon-space33.svg" alt="foto e video">
+          <h3 class="service__title">Foto e Video</h3>
+          <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="service__btn btn btn-g" href="/video">Scopri di più</a>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="portfolio__item">
+          <div class="portfolio__item__img"></div>
+          <div class="portfolio__item__title"></div>
+          <div class="portfolio__item__description"></div>
+          <div class="portfolio__item__text"></div>
+        </div>
+        <div class=""
+      </section>
+
+      <section class="contact">
+        <p class="contact__information"></p>
+        <p class="contact__email"></p>
+        <p class="contact__phone"></p>
+        <p class="contact__address"></p>
+        <div class="contact__map"></div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p class="footer__top">Home Mission Servizi Portfolio Chi Sono Blog Contatti</p>
+      <p class="footer__bottom">Copyright 2017 Space 33 Web Design - P.Iva 01526120298</p>
+    </footer>
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
